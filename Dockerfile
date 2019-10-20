@@ -1,5 +1,5 @@
 FROM fedora:28
-MAINTAINER Sébastien Santoro aka Dereckson <dereckson+nasqueron-docker@espace-win.org>
+MAINTAINER Mohammad Javad Badiei <hello@mojab.org>
 
 RUN dnf -y install mod_perl git sudo perl-App-cpanminus perl-CPAN \
                    gcc gcc-c++ make vim-enhanced perl-Software-License gd-devel \
